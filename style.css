@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Cinzel", serif;
+    margin: 0;
+    padding: 0;
+    color: #040311;
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+
+header {
+    background: url('images/fondo.jpg') no-repeat center center/cover;
+    padding: 20px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logo img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: rgb(28, 10, 66);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.banner-content {
+    animation: fadeIn 2s ease-in-out;
+    text-decoration: none;
+}
+
+.banner-content h2 {
+    font-size: 52px;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.banner-content p {
+    font-size: 24px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.banner-content .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.product-item {
+    width: 30%;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+    text-decoration: none;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+footer {
+    background: url("images/fondo.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+footer .socials {
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+footer .socials a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .socials a img {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product-item {
+        width: 45%;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product-item {
+        width: 100%;
+        text-decoration: none;
+    }
+    .banner-content h2 {
+        font-size: 36px;
+        text-decoration: none;
+    }
+    .banner-content p {
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .contact-section {
+        background-color: #f9f9f9;
+        padding: 50px 0;
+        text-align: center;
+        text-decoration: none;
+    }
+    .contact-info {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        text-decoration: none;
+    }
+    .contact-item {
+        width: 30%;
+        background: #fff;
+        padding: 20px;
+        margin: 15px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        text-decoration: none;
+    }
+    .contact-item:hover {
+        transform: translateY(-10px);
+        text-decoration: none;
+    }
+    .contact-item img {
+        width: 50px;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+    .contact-item p {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #333;
+        text-decoration: none;
+    }
+    .contact-item a.btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 25px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    @media screen and (max-width: 768px) {
+        .contact-item {
+            width: 45%;
+            text-decoration: none;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .contact-item {
+            width: 100%;
+            text-decoration: none;
+        }
+    }
+}
